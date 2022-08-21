@@ -10,7 +10,7 @@ const Navbar = () => {
     const [showNav, setShowNav] = useState(false);
   
     const twtlink =
-      "https://twitter.com/intent/tweet?text=Checkout%20gradientify.com%20by%20@thenitinsingh7%0A%0AGradientify%20is%20a%20web-based%20all-in-one%20gradient%20editor%20that%20provides%20100+%20trendy,%20beautiful,%20carefully%20crafted%20gradients%20for%20your%20next%20projects.%20Copy%20CSS%20Snippet,%20Download%20PNGs,%20generates%20a%20nice%20color%20gradient,%20and%20much%20more";
+      "https://twitter.com/intent/tweet?url=&text=Check%20out%20tailwind-gradients.netlify.com%20by%20%40Swrov%20Beautifully%20crafted%20tailwind%20gradient%20backgrounds%20and%20texts%20for%20your%20next%20project!";
   
     return (
         <>
