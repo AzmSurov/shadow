@@ -15,8 +15,8 @@ const Navbar = () => {
     return (
         <>
  
-      <div className="card navbar-container transition duration-300" >
-        <div className="w-full px-6 py-2 flex items-center justify-between">
+      <div className="card container mx-auto lg:px-2 px-10 transition duration-300" >
+        <div className="w-full  py-2 flex items-center justify-between">
           <div className="flex justify-start items-center">
             <div>
               <div className="flex items-center justify-center gap-2 ">
@@ -36,17 +36,6 @@ const Navbar = () => {
               <p className='font-medium  continuous-line text-xl font-Epilogue  bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 '>Text Gradients</p>
               </div>
               </Link>
-            </div>
-            <div>
-              <p className="text-xl text-white continuous-line font-medium font-Epilogue">
-              Tailwind Colors & Shades
-              </p>
-            </div>
-  
-            <div>
-              <p className="text-xl font-medium continuous-line font-Epilogue text-white">
-                Gradient Generator
-              </p>
             </div>
             <div>
               <p className="text-[16px] font-medium continuous-line font-Epilogue text-white">
@@ -84,30 +73,14 @@ const Navbar = () => {
           <div className="flex lg:hidden xl:hidden md:hidden flex-col w-full text-center mt-3 p-[16px] divide-y-4 divide-slate-400/25">
             <div onClick={() => setShowNav(!showNav)}>
               <p className="p-2 w-full flex items-center justify-center border-4 border-x-0 border-b-0 border-slate-400/25 ">
-                <h3 className="text-[16px] font-medium text-center text-white hover:scale-125 transition ease-in-out delay-150 cursor-pointer  bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500  ">
+                <h3 className="text-[16px] font-medium text-center hover:scale-125 transition ease-in-out delay-150 cursor-pointer  bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500  ">
                   <Link to="/text-gradient">
                   Text Gradients
                   </Link>
                 </h3>
               </p>
             </div>
-            <div onClick={() => setShowNav(!showNav)}>
-              <p className="p-2 w-full flex items-center justify-center ">
-                <h3 className="text-[16px] font-medium text-center text-white hover:scale-125 transition ease-in-out delay-150 cursor-pointer   ">
-                  Tailwind Colors and Shades
-                </h3>
-              </p>
-            </div>
-  
-            <div onClick={() => setShowNav(!showNav)}>
-              <p className="p-2 w-full flex items-center justify-center ">
-                <h3 className="text-[16px] font-medium text-center text-white hover:scale-125 transition ease-in-out delay-150 cursor-pointer   ">
-                  Gradient Generator
-                </h3>
-              </p>
-            </div>
-  
-  
+
             <div onClick={() => setShowNav(!showNav)}>
               <p className="p-2 w-full flex items-center justify-center border-4 border-x-0 border-t-0 border-slate-400/25 ">
                 <h3 className="text-[16px] font-medium text-center text-white hover:scale-125 transition ease-in-out delay-150 cursor-pointer   ">

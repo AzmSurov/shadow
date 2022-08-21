@@ -12,15 +12,15 @@ const Main = () => {
   return (
     <div>
               <div className="container mx-auto ">
-        <section className="text-white bg-gray-900">
+        <section className="text-white">
           <div className="max-w-screen-xl px-4 py-32 mx-auto lg:h-12 lg:items-center lg:flex">
             <div className="max-w-3xl mx-auto text-center">
-              <h1 className="text-3xl font-extrabold text-transparent sm:text-5xl bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
+              <h1 className="text-3xl font-extrabold text-transparent sm:text-5xl  bg-clip-text bg-gradient-to-r from-[#19A186] to-[#F2CF43]">
                 Shadow UI
               </h1>
 
               <p className="max-w-xl mx-auto mt-4 sm:leading-relaxed sm:text-xl">
-                Background Gradients for Tailwind CSS
+                Background Gradients for your next Tailwind project!
               </p>
             </div>
           </div>

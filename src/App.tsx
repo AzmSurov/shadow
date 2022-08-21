@@ -5,12 +5,13 @@ import Main from "./components/Main";
 import Navbar from "./components/Navbar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import TextGradient from "./components/TextGradient";
+import Colors from "./components/Colors";
 
 function App() {
  
 
   return (
-    <div className="bg-gray-900">
+    <div className="bg-slate-900">
       <BrowserRouter>
       <Navbar />
     <Routes>
@@ -21,7 +22,10 @@ function App() {
       <Route path="/text-gradient" element={
         <TextGradient />
       }>
-
+      </Route>
+      <Route path="/colors" element={
+        <Colors />
+      }>
       </Route>
 
     </Routes>

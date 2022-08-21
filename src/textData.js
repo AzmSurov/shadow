@@ -88,7 +88,7 @@ const textData = [
       },
       {
         id:19,
-        twBg: "bg-clip-text text-transparent bg-gradient-to-r from-gray-200 via-gray-600 to-gray-900",
+        twBg: "bg-clip-text text-transparent bg-gradient-to-r from-[#FFDD00] to-[#FBB034]",
         twColors : ["bg-gray-200"," bg-gray-600", " bg-gray-900"],
         cssColors: "background-image: linear-gradient(to right, #EC4899 , #EF4444, #F59E0B);",
       },

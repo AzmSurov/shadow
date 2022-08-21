@@ -13,7 +13,7 @@ const TextGradient = () => {
   return (
     <div className=" text-white">
      <div className="max-w-3xl mx-auto text-center py-24">
-              <h1 className="text-3xl font-extrabold text-transparent sm:text-5xl bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
+              <h1 className="text-3xl font-extrabold text-transparent sm:text-5xl bg-clip-text text-transparent bg-gradient-to-r from-[#FFDD00] to-[#FBB034]">
                 Shadow UI
               </h1>
 
@@ -22,11 +22,11 @@ const TextGradient = () => {
               </p>
             </div>
       <div className="container mx-auto grid grid-cols-5 gap-4 px-5 md:px-2 lg:px-0">
-  <button className="border border-r-amber-50 border-cover-full text-center" onClick={() => {setTextSize('text-xl')} }>text-xl</button>
-  <button className="border border-r-amber-50 border-cover-full text-center" onClick={() => {setTextSize('text-2xl')} }>text-2xl</button>
-  <button className="border border-r-amber-50 border-cover-full text-center" onClick={() => {setTextSize('text-3xl')} }>text-3xl</button>
-  <button className="border border-r-amber-50 border-cover-full text-center" onClick={() => {setTextSize('text-4xl')} }>text-4xl</button>
-  <button className="border border-r-amber-50 border-cover-full text-center" onClick={() => {setTextSize('text-5xl')} }>text-5xl</button>
+  <button className="border border-r-amber-50 border-cover-full text-center py-3 rounded-xl" onClick={() => {setTextSize('text-xl')} }>text-xl</button>
+  <button className="border border-r-amber-50 border-cover-full text-center py-3 rounded-xl" onClick={() => {setTextSize('text-2xl')} }>text-2xl</button>
+  <button className="border border-r-amber-50 border-cover-full text-center py-3 rounded-xl" onClick={() => {setTextSize('text-3xl')} }>text-3xl</button>
+  <button className="border border-r-amber-50 border-cover-full text-center py-3 rounded-xl" onClick={() => {setTextSize('text-4xl')} }>text-4xl</button>
+  <button className="border border-r-amber-50 border-cover-full text-center py-3 rounded-xl" onClick={() => {setTextSize('text-5xl')} }>text-5xl</button>
 </div>
 
       <div className="container mx-auto py-5 px-5 md:px-2 lg:px-0">
@@ -42,9 +42,9 @@ const TextGradient = () => {
             {textData.map(({id, twBg}) => (
                 <div className="flex justify-between py-4 ">
                 <span key={id} className={`font-bold ${textSize} ${twBg} `}>
-                  {inputText ? inputText : "Hello World!"}
+                  {inputText ? inputText : "Build whatever you want!"}
                 </span>
-                <div className="p-1 shadow-xl  bg-gradient-to-r from-pink-500 to-violet-500  rounded-2xl">
+                <div className="p-1 shadow-xl justify-center py-12 sm:py-0">
                 <button
                   className="text-center lg:px-12 lg:py-3 px-2 py-2 h-10 lg:h-full block p-6 bg-gray-900 text-white sm:p-8 rounded-xl"
                   onClick={() => {
