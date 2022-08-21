@@ -33,7 +33,7 @@ const Navbar = () => {
           <div className='hover:scale-125 transition ease-in-out delay-125"'>
               <Link to="/text-gradient">
               <div  >
-              <p className='text-white font-medium  continuous-line text-xl font-Epilogue  bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 '>Text Gradients</p>
+              <p className='font-medium  continuous-line text-xl font-Epilogue  bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 '>Text Gradients</p>
               </div>
               </Link>
             </div>
