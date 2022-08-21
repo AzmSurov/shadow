@@ -34,6 +34,8 @@ const Main = () => {
                   <div className="p-2 bg-white flex flex-row justify-between">
                     <div className="flex gap-0 ">
                       <button
+                      data-splitbee-event="Subscribe Newsletter"
+                      data-splitbee-event-planType="Copied"
                         onClick={() => {
                           navigator.clipboard.writeText(twBg);
                           notify();
@@ -52,6 +54,8 @@ const Main = () => {
                       </button>
 
                       <button
+                      data-splitbee-event="Subscribe Newsletter"
+                      data-splitbee-event-planType="Copied"
                         onClick={() => {
                           navigator.clipboard.writeText(cssColors ? cssColors : "");
                           notify();
@@ -72,7 +76,10 @@ const Main = () => {
 
                     <div className="flex gap-x-2">
                       {twColors?.map((element, twColors) => (
-                      <button className={"border rounded-full px-3.5 " + (element)} data-tip={`Copy ${element}`} onClick={() => {
+                      <button
+                      data-splitbee-event="Subscribe Newsletter"
+                      data-splitbee-event-planType="Copied"
+                       className={"border rounded-full px-3.5 " + (element)} data-tip={`Copy ${element}`} onClick={() => {
                         navigator.clipboard.writeText(element)
                         notify();
                       }}>
